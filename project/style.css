@@ -97,6 +97,11 @@ button {
     overflow: hidden;
 }
 
+button a {
+    color: #fff;
+    text-decoration: none;
+}
+
 .new_span {
     background: #009688;
     height: 100%;
@@ -116,4 +121,5 @@ button:hover .new_span {
 button:hover{
     border: none;
 }
+
 
