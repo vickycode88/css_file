@@ -1,62 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student|Profile</title>
-    <style>
-        body {
-            text-align: center;
-            margin-top: 54px;
-        }
-
-        h2 {
-            margin-top: 40px;
-        }
-
-        form {
-            display: inline-block;
-            text-align: left;
-            margin-top: 20px;
-        }
-
-        table {
-            margin: 0 auto;
-        }
-
-        td {
-            padding: 1px;
-            vertical-align: top;
-        }
-
-        .error {
-            color: red;
-            font-weight: bold;
-            margin-left: 10px;
-        }
-
-        textarea {
-            width: 300px;
-            height: 100px;
-        }
-
-        input[type="text"],
-        input[type="date"],
-        input[type="number"] {
-            width: 200px;
-        }
-
-        .button-row {
-            text-align: center;
-        }
-    </style>
 </head>
+<style>
+    textarea {
+        height: 94px;
+        width: 366px;
+    }
+
+    body{
+        margin-top: 56px;
+    }
+</style>
 
 <body>
-
-    <h3>Create Profile</h3>
-
+    <h3 align="center">Create Profile</h3>
     <form>
-        <table>
+        <table align="center">
             <tr>
                 <td><b>First Name:</b></td>
                 <td><input type="text" placeholder="First Name" required></td>
@@ -93,13 +57,12 @@
                 <td><textarea required></textarea></td>
             </tr>
             <tr>
-                <td colspan="2" class="button-row">
+                <td colspan="2" align="center" >
                     <input type="submit" value="Create" required>
                 </td>
             </tr>
         </table>
     </form>
-
 </body>
 
 </html>
