@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Accurate Login Box</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 200px 0;
+
+
+
+        }
+
+
+        .wrapper {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+
+        .login-box {
+            background-color: #F1E7BA;
+            padding: 30px;
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+        }
+
+
+        .login-box label {
+            font-weight: bold;
+            font-size: 16px;
+            color: #fff;
+        }
+
+
+        .login-box input {
+            padding: 10px;
+            border: none;
+            border-radius: 6px;
+            font-size: 14px;
+            outline: none;
+        }
+
+
+        .login-box button {
+            background-color: #E84420;
+            color: white;
+            border: none;
+            padding: 15px;
+            font-size: 18px;
+            border-radius: 25px;
+            cursor: pointer;
+            margin-top: 10px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="login-box">
+            <label for="username">Enter Username:</label>
+            <input type="email" id="username" placeholder="Enter email ID">
+
+            <label for="password">Enter Password:</label>
+            <input type="password" id="password" placeholder="Password here">
+
+            <button type="submit">Login</button>
+        </div>
+    </div>
+</body>
+
+</html>
