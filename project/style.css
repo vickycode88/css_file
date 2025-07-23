@@ -118,8 +118,30 @@ button:hover .new_span {
     width: 100%;
 }
 
-button:hover{
+button:hover {
     border: none;
+
 }
 
 
+.statement {
+    text-align: center;
+    margin-top: 8px;
+    padding-top: 30px;
+}
+
+.statement1 {
+    margin: auto;
+}
+
+.card1{
+        padding-top: 24px;
+}
+
+.bcolor {
+    background-color: #6c757d26;
+    margin: 50px;
+    margin-top: -8px;
+    margin-left: -14px;
+    margin-right: -11px;
+}
