@@ -168,7 +168,7 @@ button:hover {
 .backcolor {
     background-color: black;
     margin-top: -48px;
-    height: 1656px;
+    height: 2100px;
 }
 
 .backcolor h2{
@@ -178,8 +178,10 @@ button:hover {
     color: white;
 }
 
-.featurespace{
+.featurespace {
     margin-left: 26px;
+    margin-top: 51px;
+    margin-bottom: 51px;
 }
 
 .image_space{
